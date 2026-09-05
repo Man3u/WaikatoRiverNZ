@@ -1,0 +1,4 @@
+data/
+output/*.gpkg
+*.tif
+.DS_Store
