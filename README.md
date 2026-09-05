@@ -1,6 +1,6 @@
 # Waikato River: Source to Sea
 
-Reconstructing the full course of New Zealand's longest river from its source at the Lake Taupo outlet, through its confluence with the Waipā River near Ngaruawahia, to its mouth at Port Waikato — using open geospatial data, and visualizing its sediment plume where it discharges into the Tasman Sea.
+Reconstructing the full course of New Zealand's longest river from its source at the Lake Taupo outlet, through its confluence with the Waipā River near Ngaruawahia, to its mouth at Port Waikato, using open geospatial data, and visualizing its sediment plume where it discharges into the Tasman Sea.
 
 ## What this project does
 
