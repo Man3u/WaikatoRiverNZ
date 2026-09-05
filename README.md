@@ -1,6 +1,6 @@
 # Waikato River: Source to Sea
 
-Reconstructing the full course of New Zealand's longest river — from its source at the Lake Taupo outlet, through its confluence with the Waipā River near Ngaruawahia, to its mouth at Port Waikato — using open geospatial data, and visualizing its sediment plume where it discharges into the Tasman Sea.
+Reconstructing the full course of New Zealand's longest river from its source at the Lake Taupo outlet, through its confluence with the Waipā River near Ngaruawahia, to its mouth at Port Waikato — using open geospatial data, and visualizing its sediment plume where it discharges into the Tasman Sea.
 
 ## What this project does
 
@@ -25,7 +25,7 @@ See `reports/Waikato_River_Report.docx` for full methodology, results, and limit
 
 ## Notable technical challenge
 
-The Waikato River is split into 15 disconnected fragments in OpenStreetMap (it passes through 8 hydro-lakes where the inundated channel isn't tagged as a river line). Two straightforward approaches to stitching these fragments together produced confidently wrong results — one silently dropped 42% of the river's length, the other produced a non-monotonic path ending 61 m above sea level. The final approach orders fragments by their projection onto a fixed line between two known real-world anchor points (Taupo outlet, Port Waikato mouth), which is robust regardless of gap size. Full writeup in the report.
+The Waikato River is split into 15 disconnected fragments in OpenStreetMap (it passes through 8 hydro-lakes where the inundated channel isn't tagged as a river line). Two straightforward approaches to stitching these fragments together produced confidently wrong results, one silently dropped 42% of the river's length, the other produced a non-monotonic path ending 61 m above sea level. The final approach orders fragments by their projection onto a fixed line between two known real-world anchor points (Taupo outlet, Port Waikato mouth), which is robust regardless of gap size. Full writeup in the report.
 
 ## Repository structure
 
